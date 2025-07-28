@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "opsponges",
+	"version": "${version}",
+	"name": "OPSponges",
+	"description": "Remove Limits of Sponges",
+	"authors": [
+		"NoSkinBadName"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/opsponges",
+		"sources": "https://github.com/NoSkinBadName/opsponges"
+	},
+	"license": "MIT",
+	"icon": "assets/opsponges/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.noskinbadname.opsponges.OPSponges"
+		]
+	},
+	"mixins": [
+		"opsponges.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21 <=1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
