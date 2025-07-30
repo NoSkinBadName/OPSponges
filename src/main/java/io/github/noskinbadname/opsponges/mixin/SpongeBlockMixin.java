@@ -47,7 +47,7 @@ public abstract class SpongeBlockMixin {
 					world.setBlockState(blockPos, Blocks.AIR.getDefaultState(), Block.NOTIFY_ALL);
 					waterDried = true;
 				}
-				new DelayedAction(5, () -> absorbWater(world, blockPos));
+				new DelayedAction(4, () -> absorbWater(world, blockPos));
 			}
 		}
 		return waterDried;
