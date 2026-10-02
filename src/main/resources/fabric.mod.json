@@ -23,8 +23,8 @@
 		"opsponges.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": ">=1.21 <=26.3",
+		"fabricloader": ">=0.19.0",
+		"minecraft": ">=26.1 <=26.3",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
